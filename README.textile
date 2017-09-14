@@ -1,0 +1,10 @@
+<!-- nuug-postliste-yaml -->
+YAML-tagger:<br>
+Type: center<br>
+Status: unfinished<br>
+Name: Mattilsynet<br>
+Format: HTML<br>
+Datatype: ?<br>
+Run: daily<br>
+Missingfields: recorddate
+<!-- nuug-postliste-endyaml -->
