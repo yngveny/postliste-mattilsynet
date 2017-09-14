@@ -17,8 +17,8 @@ import HTMLParser
 baseurl = "http://www.mattilsynet.no/om_mattilsynet/offentlig_journal_og_innsyn/"
 roothtml = scraperwiki.scrape(baseurl)
 
-lazycache=scraperwiki.swimport('lazycache')
-postlistelib=scraperwiki.swimport('postliste-python-lib')
+lazycache=scraperwiki.utils.swimport('lazycache')
+postlistelib=scraperwiki.utils.swimport('postliste-python-lib')
 
 agency = 'Mattilsynet'
 
